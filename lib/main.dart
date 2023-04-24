@@ -1,4 +1,4 @@
-import 'package:flick_pick/start_screen.dart';
+import 'package:flick_pick/movie_list.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +14,9 @@ class FlickPick extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepOrange,
       ),
-      home: const StartScreen(),
+      home: MovieList(),
     );
   }
 }

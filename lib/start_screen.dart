@@ -1,3 +1,4 @@
+import 'package:flick_pick/movie_list.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatelessWidget {
@@ -6,7 +7,7 @@ class StartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Container()),
+      body: SafeArea(child: MovieList()),
     );
   }
 }
